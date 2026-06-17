@@ -1,0 +1,21 @@
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.DS_Store
+.env
+
+# Large/runtime artifacts
+data/*.mp4
+data/*.mov
+data/*.avi
+output/*.mp4
+output/*.csv
+output/*.json
+*.pt
+
+# Keep directories
+!data/.gitkeep
+!output/.gitkeep

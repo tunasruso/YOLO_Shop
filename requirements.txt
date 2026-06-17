@@ -1,0 +1,10 @@
+--extra-index-url https://download.pytorch.org/whl/cpu
+# CPU-only PyTorch: сервер без GPU, не тянем CUDA-зависимости.
+torch==2.12.0+cpu
+torchvision==0.27.0+cpu
+ultralytics==8.3.161
+opencv-python-headless==4.11.0.86
+streamlit==1.46.0
+pandas==2.3.0
+numpy==2.2.6
+plotly==6.1.2
